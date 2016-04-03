@@ -1,0 +1,86 @@
+/* START Sidebar */
+	#logged_in_sidebar {
+		text-align: left;
+		padding-top: 5px;
+		padding-left: 10px;
+		border: 1px;
+		width: 150px;
+		height: 80%;
+		background-color: green;
+	}
+
+	/* START Sidebar Sections */
+		#logged_in_sidebar_sections {
+			
+		}
+		
+		#logged_in_sidebar_section_1 {
+			padding-bottom: 10px;
+		}
+		
+		#logged_in_sidebar_section_2 {
+			padding-bottom: 10px;
+		}
+		
+		#logged_in_sidebar_section_3 {
+			padding-bottom: 10px;
+		}
+	/* END Sidebar Sections */
+	
+	/* START Sidebar Items - General */
+		.logged_in_sidebar_items {
+			
+		}
+		
+		#logged_in_sidebar_section_1_items {
+			
+		}
+		
+		#logged_in_sidebar_section_2_items {
+			
+		}
+		
+		#logged_in_sidebar_section_3_items {
+			
+		}
+	/* END Sidebar Items - General */
+	
+	/* START Sidebar Items */
+		#logged_in_sidebar_section_1_item_1 {
+			
+		}
+		
+		#logged_in_sidebar_section_1_item_2 {
+			
+		}
+		
+		#logged_in_sidebar_section_1_item_3 {
+			
+		}
+		
+		#logged_in_sidebar_section_2_item_1 {
+			
+		}
+		
+		#logged_in_sidebar_section_2_item_2 {
+			
+		}
+		
+		#logged_in_sidebar_section_2_item_3 {
+			
+		}
+		
+		#logged_in_sidebar_section_3_item_1 {
+			
+		}
+		
+		#logged_in_sidebar_section_3_item_2 {
+			
+		}
+		
+		#logged_in_sidebar_section_3_item_3 {
+			
+		}
+	/* END Sidebar Items*/
+
+/* END Sidebar */

@@ -1,0 +1,733 @@
+/* START Main Things */
+	body {
+		background-color: #4a7db0;
+		font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+		font-size: 14px;
+	}
+	
+	ul {
+		list-style: none;
+	}
+	
+	footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 100px;
+		text-align: center;
+	}
+	
+	#indexcontainer	{
+		position: absolute;
+		top: 0px;
+		left: 50%;
+		height: 100%;
+		width: 800px; 
+		margin: 0 0 0 -400px;
+		font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+		font-size: 16px;
+		/*background-color: red;*/
+	}
+	
+	#index_logo {
+		position: fixed;
+		top: 1%;
+		left: 50%;
+		width: 800px;
+		margin: 0 0 0 -400px;
+		text-align: center;
+		/*background-color: yellow;*/
+	}
+	
+	#index_description {
+		position: fixed;
+		top: 12%;
+		left: 50%;
+		width: 800px;
+		height: 130px;
+		margin: 0 0 0 -400px;
+		text-align: center;
+	}
+	
+	#index_middle_section {
+		position: fixed;
+		width: 800px;
+		height: 380px;
+		top: 20%;
+		border-radius: 15px;
+		background-image: url('../images/low_contrast_linen.png');
+		box-shadow:inset 0 0 10px #000000;
+		-moz-box-shadow:inset 0 0 10px #000000;
+		
+	}
+	
+	#left_register {
+		display: block;
+		position:fixed;
+		top: 25%;
+		left: 50%;
+		width: 400px;
+		height: 250px;
+		margin: 0 0 0 -400px;
+		padding: 0px;	
+		float: left;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 16px;
+		color: orange;
+		/*background-color: blue;*/
+	}
+	
+	#middle_rule_top {
+		display: block;
+		position:fixed;
+		top: 25%;
+		left: 50%;
+		width: 420px;
+		height: 100px;
+		margin: 0 0 0 -400px;
+		padding: 0px;	
+		float: left;
+		text-align: center;
+		border-right-style: solid;
+		border-width: 2px;
+		vertical-align: middle;
+		color: black;
+	}
+	
+	#middle_or {
+		position: fixed;
+		top: 40%;
+		left: 50%;
+	}
+	
+	#middle_rule_bottom {
+		display: block;
+		position:fixed;
+		top: 50%;
+		left: 50%;
+		width: 420px;
+		height: 100px;
+		margin: 0 0 0 -400px;
+		padding: 0px;	
+		float: left;
+		text-align: center;
+		border-right-style: solid;
+		border-width: 2px;
+		vertical-align: middle;
+		color: black;
+	}
+	
+	#right_login {
+		display: block;
+		position:fixed;
+		top: 25%;
+		left: 50%;
+		width: 400px;
+		height: 250px;
+		padding: 0px;	
+		float: right;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 16px;
+		color: orange;
+		/*background-color: green;*/
+	}
+/* END Main Things */
+
+/* START Main Classes */
+	.body {
+		
+	}
+	
+	.h1 {
+		
+	}
+	
+	.errors {
+		
+	}
+	
+	.table {
+		
+	}
+	
+	.input {
+		
+	}
+	
+	.button {
+		
+	}
+/* END Main Classes */
+
+/* START Link Styling */
+	
+	.link {
+		text-decoration: none;
+	}
+	
+	.link:hover {
+		text-decoration: none;
+	}
+	
+	.link:active {
+		text-decoration: none;
+	}
+	
+	.link:visited {
+		text-decoration: none;
+	}
+	
+	.link1 {
+		text-decoration: none;
+		color: black;
+	}
+	
+	.link1:hover {
+		text-decoration: underline;
+		color: black;
+	}
+	
+	.link1:active {
+		text-decoration: none;
+		color: black;
+	}
+	
+	.link1:visited{
+		text-decoration: none;
+		color: black;
+	}
+
+/* END Link Styling */
+
+/* START Profile */
+	#profileheader {
+		
+	}
+	
+	#profilebody {
+		
+	}
+/* END Profile */
+
+/* START Login Form */	
+	#register {
+		display: block;
+		position:fixed;
+		top: 20%;
+		left: 50%;
+		width: 435px;
+		height: 370px;
+		margin: 0 0 0 -200px;
+		padding: 0px;	
+		float: left;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 16px;
+		border-radius: 15px;
+		background-image: url('../images/low_contrast_linen.png');
+		box-shadow:inset 0 0 10px #000000;
+		-moz-box-shadow:inset 0 0 10px #000000;
+		color: orange;
+		/*background-color: blue;*/
+	}
+	
+	#register_hr_1 {
+		position: relative;
+		left: 50px;
+		width: 300px;
+		height: 20px;
+	}
+	
+	#register_1_fix {
+		position: relative;
+		left: 17px;
+	}
+	
+	#login {
+		display: block;
+		position:fixed;
+		top: 20%;
+		left: 50%;
+		width: 400px;
+		height: 300px;
+		margin: 0 0 0 -200px;
+		padding: 0px;	
+		float: left;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 16px;
+		border-radius: 15px;
+		background-image: url('../images/low_contrast_linen.png');
+		box-shadow:inset 0 0 10px #000000;
+		-moz-box-shadow:inset 0 0 10px #000000;
+		color: orange;
+		/*background-color: blue;*/
+	}
+	
+	#login_errors {
+		
+	}
+	
+	#register_errors {
+		position: relative;
+		top: -1000px;
+	}
+	
+	#register_fix {
+		position: relative;
+		top: -40px;
+		left: 17px;
+	}
+	
+	#login_fix {
+		position: relative;
+		top: 30px;
+	}
+	
+	#register_title {
+		position: relative;
+		left: -15px;
+	}
+	
+	#register_description {
+		position: relative;
+		left: -15px;
+		top: -5px;
+	}
+	
+	#register_hr {
+		position: relative;
+		left: 30px;
+		width: 300px;
+		height: 20px;
+		
+	}
+	
+	#login_hr {
+		position: relative;
+		left: 40px;
+		width: 300px;
+		height: 20px;
+	}
+
+	#register_information {
+		height: 32px;
+		width: 224px;
+		font-size: 16px;
+	}
+	
+	#login_email {
+		height: 32px;
+		width: 224px;
+		font-size: 16px;
+	}
+	
+	#login_password {
+		height: 32px;
+		width: 224px;
+		font-size: 16px;
+	}
+	
+	#login_button {
+		
+	}
+	
+	.login_input {
+		
+	}
+	
+	.login_button {
+		
+	}
+/* END Login Form */
+
+/* START Messages */
+	#messages_central_area {
+		position: fixed;
+		top: 60px;
+		left: 52%;
+		width: 500px;
+		height: 80%;
+		margin: 0 0 0 -200px;
+	}
+	
+	#messages_table_create_message {
+		width: 500px;
+	}
+	
+	#messages_table_line {
+		width: 500px;
+	}
+	
+	#messages_table_headings {
+		width: 500px;
+	}
+	
+	#messages_table_subject {
+		text-align: center;
+		width: 300px;
+	}
+	
+	#messages_table_from {
+		text-align: center;
+	}
+/* END Messages */
+
+#logo {
+	font-family: 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+/* START Forgot Password */
+	#forgot_password {
+		font-size: 12px;
+		text-decoration: none;
+		color: grey;
+	}
+	
+	#forgot_password:hover {
+		font-size: 12px;
+		text-decoration: underline;
+		color: white;
+	}
+	
+	#forgot_password:active {
+		font-size: 12px;
+		text-decoration: none;
+		color: grey;
+	}
+	
+	#forgot_password:visited {
+		font-size: 12px;
+		text-decoration: none;
+		color: grey;
+	}
+/* END Forgot Password */
+
+/* START Contact Button */
+	
+	/* START Index Contact */
+		#index_contact_us {    
+	    background-color:#f5f5f5;
+	    border:1px solid #dedede;
+	    border-top:1px solid #eee;
+	    border-left:1px solid #eee;
+	    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	    font-size:12px;
+	    text-decoration:none;
+	    font-weight:bold;
+	    color:#565656;
+	    cursor:pointer;
+	    padding:5px 7px 5px 7px;
+		}
+		
+		#index_contact_us {
+		    color:#336699;
+		}
+		
+		#index_contact_us:hover {
+		    background-color:#dff4ff;
+		    border:1px solid #c2e1ef;
+		    color:#336699;
+		}
+		
+		#index_contact_us:active {
+		    background-color:#6299c5;
+		    border:1px solid #6299c5;
+		    color:#fff;
+		}
+	/* END Index Contact */
+	
+	#contact_us {
+	    position: absolute;
+	    top: 27px;
+	    left: 65%;
+	    
+	    background-color:#f5f5f5;
+	    border:1px solid #dedede;
+	    border-top:1px solid #eee;
+	    border-left:1px solid #eee;
+	    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	    font-size:12px;
+	    text-decoration:none;
+	    font-weight:bold;
+	    color:#565656;
+	    cursor:pointer;
+	    padding:5px 7px 5px 7px;
+	}
+	
+	#contact_us {
+	    color:#336699;
+	}
+	
+	#contact_us:hover {
+	    background-color:#dff4ff;
+	    border:1px solid #c2e1ef;
+	    color:#336699;
+	}
+	
+	#contact_us:active {
+	    background-color:#6299c5;
+	    border:1px solid #6299c5;
+	    color:#fff;
+	}
+/* END Contact Button */
+
+/* START Logged In Stuff */
+	/* START Toolbar */
+	#top_toolbar {
+		position: fixed;
+		text-align: center;
+		top: 0px;
+		width: 800px;
+		height: 40px;
+		left: 50%;
+		margin: 0 0 0 -400px;
+		background-color: black;
+	}
+	
+	#top_toolbar_logo {
+		position: relative;
+		padding: 0px;
+		top: 10px;
+		color: white;
+	}
+	
+	#top_toolbar_other {
+		position: fixed;
+		top: 0px;
+		width: 100px;
+		height: 40px;
+	}
+	
+	#top_toolbar_notifications {
+		text-align: center;
+		position: fixed;
+		left: 30%;
+		top: 5px;
+		height: 20px;
+		width: 20px;
+		padding: 5px;
+		background-color: white;
+	}
+	
+	#top_toolbar_messages {
+		text-align: center;
+		position: fixed;
+		left: 33%;
+		top: 5px;
+		height: 20px;
+		width: 20px;
+		padding: 5px;
+		background-color: white;
+	}
+	
+	#top_toolbar_settings {
+		text-align: center;
+		position: fixed;
+		left: 36%;
+		top: 5px;
+		height: 20px;
+		width: 20px;
+		padding: 5px;
+		background-color: white;
+	}
+	
+	#top_toolbar_logout {
+		position: fixed;
+		left: 69%;
+		top: 0px;
+		height: 40px;
+		width: 150px;
+		background-color: white;
+	}
+	
+	#top_toolbar_logout_link {
+		text-align: center;
+		top: 10px;
+		position: relative;
+		top: 0px;
+		height: 40px;
+		width: 150px;
+		text-decoration: none;
+		background-color: red;
+	}
+	
+	#top_toolbar_logout_link:visited {
+		text-decoration: none;
+	}
+	
+	#top_toolbar_logout_link:active {
+		text-decoration: none;
+	}
+	
+	#top_toolbar_logout_link:hover {
+		text-align: center;
+		top: 10px;
+		position: relative;
+		top: 0px;
+		height: 40px;
+		width: 150px;
+		text-decoration: none;
+		background-color: green;
+	}
+	/* END Toolbar */
+
+	/* START Sidebar */
+		#logged_in_sidebar {
+			text-align: left;
+			padding-top: 5px;
+			padding-left: 10px;
+			border: 1px;
+			width: 150px;
+			height: 80%;
+			background-color: green;
+		}
+	
+		/* START Sidebar Sections */
+			#logged_in_sidebar_sections {
+				
+			}
+			
+			#logged_in_sidebar_section_1 {
+				padding-bottom: 10px;
+			}
+			
+			#logged_in_sidebar_section_2 {
+				padding-bottom: 10px;
+			}
+			
+			#logged_in_sidebar_section_3 {
+				padding-bottom: 10px;
+			}
+		/* END Sidebar Sections */
+		
+		/* START Sidebar Items - General */
+			.logged_in_sidebar_items {
+				
+			}
+			
+			#logged_in_sidebar_section_1_items {
+				
+			}
+			
+			#logged_in_sidebar_section_2_items {
+				
+			}
+			
+			#logged_in_sidebar_section_3_items {
+				
+			}
+		/* END Sidebar Items - General */
+		
+		/* START Sidebar Items */
+			#logged_in_sidebar_section_1_item_1 {
+				
+			}
+			
+			#logged_in_sidebar_section_1_item_2 {
+				
+			}
+			
+			#logged_in_sidebar_section_1_item_3 {
+				
+			}
+			
+			#logged_in_sidebar_section_2_item_1 {
+				
+			}
+			
+			#logged_in_sidebar_section_2_item_2 {
+				
+			}
+			
+			#logged_in_sidebar_section_2_item_3 {
+				
+			}
+			
+			#logged_in_sidebar_section_3_item_1 {
+				
+			}
+			
+			#logged_in_sidebar_section_3_item_2 {
+				
+			}
+			
+			#logged_in_sidebar_section_3_item_3 {
+				
+			}
+		/* END Sidebar Items*/
+	
+	/* END Sidebar */
+	
+	/* START Logged In Central Area */
+	#logged_in_central_area {
+		position: fixed;
+		text-align: center;
+		top: 40px;
+		width: 800px;
+		height: 80%;
+		left: 50%;
+		margin: 0 0 0 -400px;
+		/*background-color: blue;*/
+	}
+	
+	#logged_in_central_area_main {
+		position: fixed;
+		top: 40px;
+		width: 650px;
+		left: 50%;
+		margin: 0 0 0 -250px;
+		height: 80%;
+		/*background-color: red;*/
+	}
+	/* END Logged In Central Area */
+	
+	/* START Status Update */
+		#updating_status {
+			position: fixed;
+			top: 60px;
+			left: 52%;
+			text-align: center;
+			width: 280px;
+			height: 75px;
+			margin: 0 0 0 -65px;
+		}
+	
+		#updating_status_textbox {
+			width: 224px;
+			height: 24px;
+			text-align: center;
+			font-size: 13px;
+		}
+		
+		#updating_status_button {
+			position: relative;
+			top: 30px;
+			width: 76px;
+			margin: 0 0 0 -38px;
+			left: -112px;
+		}
+	/* END Status Update */
+/* END Logged In Stuff */
+
+/* Other */
+#index_top_right {
+		position: absolute;
+	   	top: 27px;
+	    left: 65%;
+}
+
+.center_page {
+		display: block;
+		position:fixed;
+		text-align: center;
+		top: 30%;
+		left: 50%;
+		width: 800px;
+		height: 100%;
+		margin: 0 0 0 -400px;
+		padding: 0px;	
+	}

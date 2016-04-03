@@ -1,0 +1,26 @@
+/* START Status Update */
+	#updating_status {
+		position: fixed;
+		top: 60px;
+		left: 52%;
+		text-align: center;
+		width: 280px;
+		height: 75px;
+		margin: 0 0 0 -65px;
+	}
+
+	#updating_status_textbox {
+		width: 224px;
+		height: 24px;
+		text-align: center;
+		font-size: 13px;
+	}
+	
+	#updating_status_button {
+		position: relative;
+		top: 30px;
+		width: 76px;
+		margin: 0 0 0 -38px;
+		left: -112px;
+	}
+/* END Status Update */

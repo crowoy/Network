@@ -1,0 +1,98 @@
+/* START Toolbar */
+#top_toolbar {
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 800px;
+	height: 40px;
+	left: 50%;
+	margin: 0 0 0 -400px;
+	background-color: black;
+}
+
+#top_toolbar_logo {
+	position: relative;
+	padding: 0px;
+	top: 10px;
+	color: white;
+}
+
+#top_toolbar_other {
+	position: fixed;
+	top: 0px;
+	width: 100px;
+	height: 40px;
+}
+
+#top_toolbar_notifications {
+	text-align: center;
+	position: fixed;
+	left: 30%;
+	top: 5px;
+	height: 20px;
+	width: 20px;
+	padding: 5px;
+	background-color: white;
+}
+
+#top_toolbar_messages {
+	text-align: center;
+	position: fixed;
+	left: 33%;
+	top: 5px;
+	height: 20px;
+	width: 20px;
+	padding: 5px;
+	background-color: white;
+}
+
+#top_toolbar_settings {
+	text-align: center;
+	position: fixed;
+	left: 36%;
+	top: 5px;
+	height: 20px;
+	width: 20px;
+	padding: 5px;
+	background-color: white;
+}
+
+#top_toolbar_logout {
+	position: fixed;
+	left: 69%;
+	top: 0px;
+	height: 40px;
+	width: 150px;
+	background-color: white;
+}
+
+#top_toolbar_logout_link {
+	text-align: center;
+	top: 10px;
+	position: relative;
+	top: 0px;
+	height: 40px;
+	width: 150px;
+	text-decoration: none;
+	background-color: red;
+}
+
+#top_toolbar_logout_link:visited {
+	text-decoration: none;
+}
+
+#top_toolbar_logout_link:active {
+	text-decoration: none;
+}
+
+#top_toolbar_logout_link:hover {
+	text-align: center;
+	top: 10px;
+	position: relative;
+	top: 0px;
+	height: 40px;
+	width: 150px;
+	text-decoration: none;
+	background-color: green;
+}
+/* END Toolbar */

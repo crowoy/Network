@@ -1,0 +1,14 @@
+/* START Settings */
+	#settings_main {
+		position: relative;
+		top: 30px;
+	}
+
+	#settings_name_email_password {
+		
+	}
+	
+	#settings_changeurl{
+		text-align: center;
+	}
+/* END Settings */

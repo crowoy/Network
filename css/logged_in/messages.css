@@ -1,0 +1,55 @@
+/* START Messages */
+	#messages_central_area {
+		position: fixed;
+		top: 60px;
+		left: 52%;
+		width: 500px;
+		height: 80%;
+		margin: 0 0 0 -200px;
+	}
+	
+	#messages_table_create_message {
+		width: 500px;
+	}
+	
+	#messages_table_line {
+		width: 500px;
+	}
+	
+	#messages_table_headings {
+		width: 500px;
+	}
+	
+	#messages_table_subject {
+		text-align: center;
+		width: 300px;
+	}
+	
+	#messages_table_from {
+		text-align: center;
+	}
+	
+	/* START Create Message*/
+		#create_message_to {
+			
+		}
+		
+		#create_message_to_input {
+			
+		}
+		
+		#create_message_body {
+
+		}
+		
+		#create_message_body_input {
+			width: 300px;
+			height: 100px;
+		}
+		
+		#create_message_submit_button {
+			
+		}
+	/* END Create Message */
+	
+/* END Messages */

@@ -1,0 +1,22 @@
+/* START Logged In Central Area */
+#logged_in_central_area {
+	position: fixed;
+	text-align: center;
+	top: 40px;
+	width: 800px;
+	height: 80%;
+	left: 50%;
+	margin: 0 0 0 -400px;
+	/*background-color: blue;*/
+}
+
+#logged_in_central_area_main {
+	position: fixed;
+	top: 40px;
+	width: 650px;
+	left: 50%;
+	margin: 0 0 0 -250px;
+	height: 80%;
+	/*background-color: red;*/
+}
+/* END Logged In Central Area */

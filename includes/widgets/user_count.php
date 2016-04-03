@@ -1,0 +1,1 @@
+Total Users: <?php echo total_users(); ?>
